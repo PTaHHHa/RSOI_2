@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="461.0" prefWidth="705.0" style="-fx-background-color: #FFCC00;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Client">
+    <children>
+        <BorderPane prefHeight="58.0" prefWidth="705.0" style="-fx-background-color: #000000;">
+            <center>
+                <Label prefHeight="54.0" prefWidth="134.0" text="Laba 2" textFill="WHITE" BorderPane.alignment="CENTER">
+                    <font>
+                        <Font name="System Bold" size="37.0" />
+                    </font>
+                </Label>
+            </center>
+        </BorderPane>
+        <Label layoutX="160.0" layoutY="71.0" text="Enter name of XML file">
+            <font>
+                <Font size="35.0" />
+            </font>
+        </Label>
+        <TextArea fx:id="Result" editable="false" layoutX="190.0" layoutY="213.0" prefHeight="236.0" prefWidth="291.0" style="-fx-background-color: #000000;" />
+        <Label layoutX="287.0" layoutY="173.0" text="Result">
+            <font>
+                <Font size="28.0" />
+            </font>
+        </Label>
+        <TextField fx:id="fieldC" layoutX="222.0" layoutY="135.0" prefHeight="26.0" prefWidth="205.0" promptText="Name goes here" style="-fx-background-color: #FFFFF;" />
+        <BorderPane layoutY="341.0" prefHeight="58.0" prefWidth="650.0" style="-fx-background-color: #FFFFF;" />
+        <Button fx:id="SendButton" layoutX="18.0" layoutY="123.0" mnemonicParsing="false" onAction="#xml" prefHeight="50.0" prefWidth="108.0" style="-fx-background-color: #FFFFF;" text="Magic">
+            <font>
+                <Font size="22.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

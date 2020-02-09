@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet href="goods.xsl" type="text/xsl"?>
+
+<currency>
+    <curr ID="USD"> "
+        <bank ID="BelGazpromBank">
+            <buying>2.168</buying>
+            <selling>2.139</selling>
+        </bank>
+        <bank ID="FransaBank">
+            <buying>2.178</buying>
+            <selling>2.184</selling>
+        </bank>
+        <bank ID="MTBank">
+            <buying>2.172</buying>
+            <selling>2.191</selling>
+        </bank>
+        <bank ID="BelinvestBank">
+            <buying>2.17</buying>
+            <selling>2.194</selling>
+        </bank>
+        <bank ID="BelarusBank">
+            <buying>2.175</buying>
+            <selling>2.19</selling>
+        </bank>
+    </curr>
+</currency>
